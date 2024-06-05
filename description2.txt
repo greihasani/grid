@@ -8,6 +8,6 @@ I bejm upload fotove dhe container i par dhe i 3 do te jene me te njejtat foto d
 
 
 Fillojm e me stilizimet :
-  grid-template-columns: repeat(4, auto); kur ekrani eshte i madh kam bere qe te krijohen 4 kolona dhe gjeresia e tyre eshte auto
-Me zvogelimin e ekranit kam zvogeluar edhe nr e kolonave psh max-width: 800px krijoj 2 kolona dhe max-width: 600px krijoj 1 kolone.
-Ne kete menyre kur ekrani te zvogelohet-zmadhohet fotot do te shfaqen responsive.
+ Duhet qe imazhet ti bej rsponsive pa perdourur media querys,per kte do te peror display grid ,tek div row i fotove.
+Nepermjet funksionit repeat sigurhem qe te krijohen aq kolona sa ka hapsire div row,por kur e zvogelon ekronin fotot ruajn minimum width 250 px,
+ndersa kur e zmadhoje ekranin ato zmadhohen ne menyre te barabarte sepse kam perdor 1 fr
